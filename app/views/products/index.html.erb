@@ -1,9 +1,21 @@
-<h1>Products</h1>
+<% content_for(:title, "Home") %>
+<h1 style="text-align: center;">Products</h1>
 
-<ul>
-  <% @products.each do |product| %>
-    <li><%= link_to product.name, product_path(product) %></li>
+<% if @products.any? %>
+    <div class="row">
+      <% @products.each do |product| %>
+      <div class="col m4">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag product.image, class: "thumbnails"%>
+          </div>
+          <div class="card-content center">
+            <%= link_to product.name, product_path(product) %>
+          </div>
+        </div>
+      </div>
   <% end %>
 </ul>
-
-<%= link_to "New Product", new_product_path %>
+<% else %>
+  <h4 style="text-align:center;"><a href="/products/new">Create New Product</a></h4>
+<% end %>

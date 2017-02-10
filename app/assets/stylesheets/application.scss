@@ -1,6 +1,39 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "materialize";
 
-.resizeGummyImg {
-  height: 250px;
+.resizeLogo {
+  height: 100px;
+}
+
+.nav-wrapper.indigo.lighten-4 {
+  height: 115px;
+    ul.right li a{
+      height: 115px;
+      font-size: 30px;
+      padding-top: 25px;
+      padding-right: 50px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+}
+
+body {
+  background-image: url('/assets/bckgd.gif')
+}
+
+.resizeImg {
+  width: 350px;
+}
+
+.thumbnails {
+  width: 100px;
+}
+
+.container {
+  margin-top: 100px;
+  background-color: white;
+  border-style: ridge;
+  border-color: inherit;
 }
