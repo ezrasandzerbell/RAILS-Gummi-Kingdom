@@ -1,24 +1,15 @@
 # README
+_RAILS CRUD App by Ezra Sandzer-Bell_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby 2.4 / Rails 5.0.1 / Postgres (SQL)
 
-Things you may want to cover:
+* Configuration:
+_Download git file and cd to folder directory_
+_In terminal, run $ postgres_
+_In new terminal window run the following:_
+* $ rails db:create
+* $ rails db:migrate
+* $ rails db:test:prepare
+* $ rails serve
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+_Open Source_
