@@ -6,21 +6,39 @@
   height: 100px;
 }
 
-.nav-wrapper.indigo.lighten-4 {
-  height: 115px;
-    ul.right li a{
-      height: 115px;
-      font-size: 30px;
-      padding-top: 25px;
-      padding-right: 50px;
-      &:hover {
-        text-decoration: none;
-      }
+.nav-wrapper {
+  height: 550px;
+  background-image: url('/assets/bckgd.gif');
+}
+
+nav {
+    height: 300px;
+    line-height: 300px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 300px;
+    line-height: 300px;
+}
+
+nav .button-collapse i {
+    height: 300px;
+    line-height: 300px;
+}
+
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 300px;
+        line-height: 300px;
     }
 }
 
 body {
-  background-image: url('/assets/bckgd.gif')
+
 }
 
 .resizeImg {

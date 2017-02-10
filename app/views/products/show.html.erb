@@ -16,9 +16,9 @@
   </div>
   <div class="col m6">
     <%= link_to image_tag("edit.png", id: "editImage"), edit_product_path(@product) %>
-    <p><%= link_to "Delete Record", product_path(@product),
+    <h2 style="text-align: center;"><%= link_to "Delete Record", product_path(@product),
                              :data => {:confirm => "You sure?",
-                                       :method => "delete"} %></p>
+                                       :method => "delete"} %></h2>
 
   </div>
 </div>
