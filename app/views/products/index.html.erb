@@ -3,7 +3,7 @@
   <h5>Welcome to the Land of the Gummies Administator section. You can view each of your products in the display below. Click here to <a href="/products/new">create a new product</a>.</h5>
 
 <h1 style="text-align: center;">Products</h1>
-
+    <h4 style="text-align: center;"><%= flash[:notice] %></h4>  
 <% if @products.any? %>
     <div class="row">
 
