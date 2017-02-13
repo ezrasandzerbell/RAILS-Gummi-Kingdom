@@ -1,6 +1,8 @@
 # README
 _RAILS CRUD App by Ezra Sandzer-Bell_
 
+* This app allows user to create, read, update and destroy entries for an imaginary company. 
+
 * Ruby 2.4 / Rails 5.0.1 / Postgres (SQL)
 
 * Configuration:
